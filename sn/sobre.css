@@ -1,0 +1,41 @@
+body{
+    background-image: url('./glow.png');
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center;
+height: auto;
+min-height: 200vh;
+}
+.tal img{
+  width: 200px;  
+  border-radius: 550px;
+  margin-top: 1100px;
+  box-shadow: rgba(0, 0, 0, 0.663) 0px 5px 15px;
+}
+.tal{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: top 750px; ;
+    gap: 265px;
+}
+.info{
+  display: flex;
+}
+.cont button a{
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+button{
+  width: 100px;
+  height: 30px;
+  background-color: hotpink;
+  border-color: hotpink;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+} 
+button:hover{
+  background-color: deeppink;
+}
